@@ -1,8 +1,9 @@
 {
   "baseURL": "http://localhost:3000",
-  "clientId": "insert_client_id",
-  "__clientId": "the client id must be hardcoded in the clientId field above because the value will also be used on client app where environmental variables will not be accessible",
+  "clientId": "8c228dfa2fd91756bf93cfc5cce096c5",
+  "__clientId": "8c228dfa2fd91756bf93cfc5cce096c5",
+  "secret": "60255857b8fb974c6f1f71c6f102b619",
   "email": {
-    "sender": "address@demo.com"
+    "sender": "jaxcoder@outlook.com"
   }
 }

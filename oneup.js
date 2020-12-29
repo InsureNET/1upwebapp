@@ -1,10 +1,8 @@
 // utilities to interface with the 1uphealth api servers side
 const request = require('request');
 const async = require('async');
-const ONEUP_DEMOWEBAPPLOCAL_CLIENTID =
-  process.env.ONEUP_DEMOWEBAPPLOCAL_CLIENTID;
-const ONEUP_DEMOWEBAPPLOCAL_CLIENTSECRET =
-  process.env.ONEUP_DEMOWEBAPPLOCAL_CLIENTSECRET;
+const ONEUP_DEMOWEBAPPLOCAL_CLIENTID = process.env.ONEUP_DEMOWEBAPPLOCAL_CLIENTID;
+const ONEUP_DEMOWEBAPPLOCAL_CLIENTSECRET = process.env.ONEUP_DEMOWEBAPPLOCAL_CLIENTSECRET;
 let accessTokenCache = {};
 const ROOT_API_URL = `https://api.1up.health`;
 const USER_API_URL = `https://api.1up.health`;

@@ -9,3 +9,5 @@ jspm_packages
 
 # local files
 config.json
+
+.env
